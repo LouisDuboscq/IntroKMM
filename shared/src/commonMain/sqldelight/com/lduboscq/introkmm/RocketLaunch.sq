@@ -1,0 +1,24 @@
+CREATE TABLE rocket_launch_Entity (
+    id TEXT NOT NULL PRIMARY KEY,
+    flight_number INTEGER AS Int NOT NULL,
+    mission_name TEXT NOT NULL,
+    launch_date_utc TEXT NOT NULL,
+    launch_success INTEGER AS Boolean DEFAULT 0
+);
+
+selectAll:
+SELECT * FROM rocket_launch_Entity;
+
+insertOrReplace:
+INSERT OR REPLACE INTO rocket_launch_Entity VALUES ?;
+
+selectById:
+SELECT * FROM rocket_launch_Entity
+WHERE id = ?;
+
+deleteById:
+DELETE FROM rocket_launch_Entity
+WHERE id = ?;
+
+deleteAll:
+DELETE FROM rocket_launch_Entity;
