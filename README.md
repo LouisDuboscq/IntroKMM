@@ -1,4 +1,4 @@
-This repository is created to showcase [the practical intro to KMM](appkickstarter.com/blog/pratical-intro-kmm)
+This repository is created to showcase [the practical intro to KMM](https://appkickstarter.com/blog/pratical-intro-kmm)
 
 The "Practical intro to KMM" is a short guide that covers the essential information you need to know to create a Kotlin Multiplatform app. 
 It includes information on the unique features and functions of KMM, the methodology for cross-platform development, and helpful libraries. 
